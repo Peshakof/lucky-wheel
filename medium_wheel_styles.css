@@ -1,0 +1,127 @@
+.medium1 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: chartreuse;
+    top: calc(50% - (157px / 2));
+    left: 50%;
+    transform: rotate(180deg);
+}
+
+.medium2 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: red;
+    top: calc(50% - 2px);
+    left: calc(50% - 13px);
+    transform: rotate(202.5deg);
+}
+
+.medium3 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: pink;
+    top: calc(50% + 61px);
+    left: calc(50% - 57px);
+    transform: rotate(225deg);
+}
+
+.medium4 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: purple;
+    top: calc(50% + 102px);
+    left: calc(50% - 119px);
+    transform: rotate(247.5deg);
+}
+
+.medium5 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: yellow;
+    top: calc(50% + 117px);
+    left: calc(50% - 195px);
+    transform: rotate(270deg);
+}
+
+.medium6 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: blue;
+    top: calc(50% + 102px);
+    left: calc(50% - 272px);
+    transform: rotate(292.5deg);
+}
+
+.medium7 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: grey;
+    top: calc(50% + 58px);
+    left: calc(50% - 335px);
+    transform: rotate(315deg);
+}
+
+.medium8 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: orangered;
+    top: calc(50% - 4px);
+    left: calc(50% - 376px);
+    transform: rotate(337.5deg);
+}
+
+.medium9 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: orange;
+    top: calc(50% - 79px);
+    left: 0;
+    transform: rotate(0);
+}
+
+.medium10 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: green;
+    top: calc(50% - 155px);
+    left: 16px;
+    transform: rotate(22.5deg);
+}
+
+.medium11 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: yellowgreen;
+    top: 172px;
+    left: 60px;
+    transform: rotate(45deg);
+}
+
+.medium12 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: red;
+    top: 129px;
+    left: 120px;
+    transform: rotate(67.5deg);
+}
+
+.medium13 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: blueviolet;
+    top: 115px;
+    left: 195px;
+    transform: rotate(90deg);
+}
+
+.medium14 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: antiquewhite;
+    top: 131px;
+    left: 270px;
+    transform: rotate(112.5deg);
+}
+
+.medium15 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: aquamarine;
+    top: 174px;
+    left: 332px;
+    transform: rotate(135deg);
+}
+
+.medium16 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: rgb(216, 250, 215);
+    top: 237px;
+    left: 375px;
+    transform: rotate(157.5deg);
+}

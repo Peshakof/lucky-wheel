@@ -1,0 +1,111 @@
+.small1 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: chartreuse;
+    top: 300px;
+    left: 50%;
+    transform: rotate(180deg);
+}
+
+.small2 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: red;
+    top: 386px;
+    left: 369px;
+    transform: rotate(206deg);
+}
+
+.small3 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: pink;
+    top: 456px;
+    left: 316px;
+    transform: rotate(232deg);
+}
+
+.small4 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: purple;
+    top: calc(50% + 102px);
+    left: calc(50% - 155px);
+    transform: rotate(258deg);
+}
+
+.small5 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: yellow;
+    top: calc(50% + 100px);
+    left: calc(50% - 242px);
+    transform: rotate(284deg);
+}
+
+.small6 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: blue;
+    top: calc(50% + 60px);
+    left: calc(50% - 318px);
+    transform: rotate(310deg);
+}
+
+.small7 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: grey;
+    top: calc(50% - 9px);
+    left: calc(50% - 371px);
+    transform: rotate(336deg);
+}
+
+.small8 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: orangered;
+    top: calc(50% - 95px);
+    left: calc(50% - 389px);
+    transform: rotate(362deg);
+}
+
+.small9 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: orange;
+    top: calc(50% - 179px);
+    left: 23px;
+    transform: rotate(28deg);
+}
+
+.small10 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: green;
+    top: calc(50% - 246px);
+    left: 79px;
+    transform: rotate(54deg);
+}
+
+.small11 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: yellowgreen;
+    top: 110px;
+    left: 159px;
+    transform: rotate(80deg);
+}
+
+.small12 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: red;
+    top: 113px;
+    left: 247px;
+    transform: rotate(106deg);
+}
+
+.small13 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: blueviolet;
+    top: 154px;
+    left: 324px;
+    transform: rotate(132deg);
+}
+
+.small14 {
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: antiquewhite;
+    top: 228px;
+    left: 376px;
+    transform: rotate(158deg);
+}

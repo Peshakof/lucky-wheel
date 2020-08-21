@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html {
+    font: 14px/1.5 'Coda', sans-serif;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: lightgrey;
+    position: relative;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: 300%;
+    animation: bg-animation 3s infinite alternate;
+}
+
+.mainbox {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+.arrow {
+    display: block;
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 25px;
+    top: 95px;
+    left: calc(50% - 1px);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    overflow: hidden;
+}
+
+span {
+    width: 50%;
+    height: 157px;
+    display: inline-block;
+    position: absolute;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1em 3em 1em 0;
+}
+
+.small, .medium {
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+
+.small {
+    height: 179px;
+}
+
+.medium {
+    height: 157px;
+    padding: 1.3em 3.5em 1.3em 0;
+}
+
+.spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 5px 20px#000;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: 300%;
+    animation: bg-animation 3s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+.spin:active {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.blur {
+    animation: blur 10s;
+}
+
+@keyframes blur {
+    0% {
+        filter: blur(1.5px);
+    }
+
+    80% {
+        filter: blur(1.5px);
+    }
+
+    100% {
+        filter: blur(0px);
+    }
+}
